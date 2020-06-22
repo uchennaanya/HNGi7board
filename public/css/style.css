@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #E5E5E5;
+}
+.top {
+	background-color: #fff; padding: 1rem; position: relative; right: 0;
+}
+.table-div {
+	border: 1px solid black; margin-top: 50px;
+}
+.tick {
+	background-color: #5BC0DE;
+	padding: .5rem; 
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 1%;
+}.
+input[type=checkbox] {
+	float: right;
+}
+header {
+	background: url("../images/rect.png");
+	height: 100vh;
+	color: #fff;
+	width: 20%;
+	top: 0;
+	position: absolute;
+}
+header h1 {
+	padding: 20px 20px 50px 30px;
+}
+
+nav li {
+	list-style: none;
+	display: block;
+	color: #fff;
+	line-height: 45px;
+
+}
+
+nav a {
+	color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+	
+	display: none;
+	background-color: pink;
+}
+}
