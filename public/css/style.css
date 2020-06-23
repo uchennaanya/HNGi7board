@@ -12,13 +12,15 @@ body {
 }
 .tick {
 	background-color: #5BC0DE;
-	padding: .5rem; 
+	padding: .5rem .5rem .5rem 2.5rem; 
 	border-radius: 5px;
 	margin-top: 50px;
 	margin-left: 1%;
-}.
-input[type=checkbox] {
-	float: right;
+	color: #fff;
+}
+.top i {
+	margin: .5rem;
+	color: #5BC0DE;
 }
 header {
 	background: url("../images/rect.png");
